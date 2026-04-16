@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "functions": {
+    "libdownloadxx.php": {
+      "runtime": "php-8.2"
+    }
+  }
+}
