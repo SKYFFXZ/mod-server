@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "functions": {
-    "libdownloadxx.php": {
-      "runtime": "now-php@1.0.0"
+  "builds": [
+    {
+      "src": "libdownloadxx.js",
+      "use": "@vercel/node"
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/libdownloadxx",
+      "dest": "/libdownloadxx.js"
+    }
+  ]
 }
