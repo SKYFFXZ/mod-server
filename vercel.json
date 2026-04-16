@@ -1,8 +1,9 @@
+
 {
   "version": 2,
   "functions": {
     "libdownloadxx.php": {
-      "runtime": "php-8.2"
+      "runtime": "now-php@1.0.0"
     }
   }
 }
